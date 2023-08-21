@@ -1,16 +1,15 @@
-spring: 
-    profiles: 
-        active: 
-        - dev
-
+spring:
+    profiles:
+        active:
+            - dev
 ---
 spring: 
-    profiles: dev #开发环境
-    application: 
-        name: microservicecloud-config-atpl-dev
+    profiles: dev
+    application:
+        name: microservicecloud-config-dev
         
 ---
 spring: 
-    profiles: test #测试环境
-        application: 
-            name: microservicecloud-config-atpl-test
+    profiles: test
+    application:
+        name: microservicecloud-config-test
