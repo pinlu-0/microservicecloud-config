@@ -1,0 +1,27 @@
+spring:
+    profiles: 
+        active: 
+        - dev
+---
+server:
+    port:
+spring:
+    profiles: dev
+    application: 
+        name: microservice-config-dept-client
+    dataSource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: org.git.mm.mysql.Driver
+        url: jdbc:mysql://localhost:3306/springcloud01
+        username: root
+        password: root
+        dbcp2: 
+          min-idle: 5
+          initial-size: 5
+          max-total: 5
+          max-wait-mills: 200
+mybatis: 
+    config-location: classpath:mybatis/mybatis.cfg.xml
+    type-aliases-package: com.atguigu.springcloud.entities
+    mapper-locations: 
+    - classpath:mybatis/mapper/**/*.xml
