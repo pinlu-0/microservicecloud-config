@@ -1,3 +1,15 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+server:
+  port: 7001
+spring:
+  profile: dev
+  application:
+    name: microservicecloud-config-eureka-client
+
 eureka:
   instance:
     hostname: eureka7001.com
@@ -10,7 +22,7 @@ eureka:
 server:
   port: 7001
 spring:
-  profile: dev
+  profile: test
   application:
     name: microservicecloud-config-eureka-client
 
