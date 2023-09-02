@@ -17,7 +17,7 @@ eureka:
     register-with-eureka: false # 当前的Eureka-server自己不注册到服务列表中
     fetch-registry: false # 不通过Eureka获取注册信息
     service-url:
-      defalutZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
   port: 7001
@@ -33,4 +33,4 @@ eureka:
     register-with-eureka: false # 当前的Eureka-server自己不注册到服务列表中
     fetch-registry: false # 不通过Eureka获取注册信息
     service-url:
-      defalutZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
