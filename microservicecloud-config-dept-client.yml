@@ -38,8 +38,8 @@ eureka:
 info:
   app.name: atpl-microservice-cloud-springcloudconfig01
   company.name: www.plcao.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
 
 ---
 server:
@@ -75,7 +75,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 info:
-  app.name: atpl-microservice-cloud-springcloudconfig01
+  app.name: atpl-microservice-cloud-springcloudconfig02
   company.name: www.plcao.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
