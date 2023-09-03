@@ -33,6 +33,8 @@ eureka:
     instance:
       instance-id: dept-8001.com
       prefer-ip-address: true
+    register-with-eureka: true
+    fetch-registry: true
 info:
   app.name: atpl-microservice-cloud-springcloudconfig01
   company.name: www.plcao.com
