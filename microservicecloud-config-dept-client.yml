@@ -30,9 +30,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com/eureka/
-    instance:
-      instance-id: dept-8001.com
-      prefer-ip-address: true
+  instance:
+    instance-id: dept-8001.com
+    prefer-ip-address: true
     register-with-eureka: true
     fetch-registry: true
 info:
@@ -69,9 +69,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com/eureka/
-    instance:
-      instance-id: dept-8001.com
-      prefer-ip-address: true
+  instance:
+    instance-id: dept-8001.com
+    prefer-ip-address: true
     register-with-eureka: true
     fetch-registry: true
 info:
